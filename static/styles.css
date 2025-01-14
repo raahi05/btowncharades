@@ -1,0 +1,96 @@
+/* General body styling */
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: #e1e4f4;
+	text-align: center;
+}
+
+/* Title Styling */
+h1 {
+	color: #386991; /* Blue color */
+	text-shadow: 4px 8px 13px rgba(200, 248, 127, 0.53); /* Shadow effect */
+	font-family: 'Lucida Console', Monaco, monospace;
+	font-size: 40px;
+	letter-spacing: 6px;
+	word-spacing: -2px;
+	font-weight: 700;
+	text-decoration: none solid rgb(68, 68, 68);
+	font-style: normal;
+	font-variant: normal;
+	text-transform: none;
+	margin-bottom: 20px;
+}
+
+/* Button Styling */
+button {
+	background-color: #0352a1; /* Button background color */
+	color: white;
+	border-radius: 18px;
+	border: 2px solid #335e58; /* Box border size and color */
+	padding: 17px 60px; /* Button padding */
+	font-size: 15px; /* Font size for the button text */
+	font-weight: 700;
+	cursor: pointer;
+	box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.3); /* Box shadow position and blur */
+	margin-top: 20px;
+}
+
+/* Button hover effect */
+button:hover {
+	background-color: #2f4f89; /* Darken button color on hover */
+}
+
+/* Dropdown Styling */
+select {
+	font-size: 16px;
+	padding: 10px 20px;
+	border-radius: 5px;
+	border: 2px solid #386991; /* Border around the dropdown */
+	background-color: #fff;
+	color: #333;
+	margin: 20px 0;
+}
+
+/* Centered form */
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+
+/* Optional: Add some margin at the bottom of the page */
+footer {
+	margin-top: 30px;
+}
+
+/* Optional styling for the overall container */
+.container {
+	text-align: center;
+	margin: 20px auto;
+	padding: 30px;
+	width: 120%;
+	max-width: 600px;
+	background-color: white;
+	box-shadow: 20px 20px 10px rgba(84, 84, 84, 0.1);
+	border-radius: 10px;
+}
+
+/* Styling for random-movie-message */
+h2 {
+	font-family: 'Cantarell', sans-serif;
+	text-align: center;
+	font-size: 20px;
+	letter-spacing: 1px;
+	color: #386991;
+	background-color: transparent;
+	text-shadow: rgba(7, 2, 33, 0.35) 6px 6px 10px;
+	margin-bottom: 20px;
+}
