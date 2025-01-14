@@ -76,4 +76,5 @@ def movie_picker():
 	return render_template("index.html", year_range=year_range, random_movie=random_movie)
 
 if __name__ == "__main__":
+	print("Visit https://127.0.0.1:5000/btown_charades to see the app.")
 	app.run(debug=True)
