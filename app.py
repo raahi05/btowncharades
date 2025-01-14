@@ -49,7 +49,7 @@ def pick_random_movie(movies):
 	else:
 		return "No Movies Available"
 		
-@app.route('/btown_charades', methods=["GET", "POST"])
+@app.route('/btowncharades', methods=["GET", "POST"])
 def movie_picker():
 	year_range = request.form.get('year_range', 'ALL') # Default to 'ALL' if nothing
 	random_movie = None
